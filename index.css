@@ -8,7 +8,8 @@ body {
 }
 #greet {
   margin-left: 874px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  margin-top: -33px;
 }
 #cart {
   width: 18px;
@@ -59,8 +60,8 @@ span a {
   background-color: #898486;
 } */
 
-#link {
-  margin-left: 203px;
+.link {
+  display: flex;
 }
 #link span a {
   margin-left: 0px;
@@ -70,10 +71,45 @@ span a {
   padding-bottom: 10px;
 }
 
+.linkNav {
+  margin-left: 182px;
+}
+.linkNav ul {
+  display: flex;
+  font-size: 19px;
+}
+
+.linkNav ul a {
+  text-decoration: none;
+  color: #555E6D;
+}
+
+#l1 {
+  list-style-type: none;
+}
+
+#l2 {
+  list-style-type: circle;
+  margin-left: 64px;
+}
+
+#l3 {
+  list-style-type: circle;
+  margin-left: 72px
+}
+
 #bridiImag {
   margin-left: 440px;
   width: 100px;
 }
+
+.bridLink {
+  padding-top: 25px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #555E6D;
+}
+
 
 #bg-img {
   background-image: url("Mikasa/background.png");
@@ -85,41 +121,60 @@ span a {
 #para {
   color: gray;
 }
-#body-img {
+
+.list {
+  list-style-type: none;
+  padding-left: 3px;
+  padding-right: 31px;
+  font-size: 20px;
+  color: #DCDADB;
+}
+
+#hl {
+  margin-top: -10px;
+  margin-bottom: 2px;
+}
+
+.body-img {
   border: 5px solid white;
   margin-left: 220px;
   margin-right: 254px;
   background-color: white;
 }
-#border {
+
+.body-img span img {
+  margin-left: 5px;
+}
+
+.class {
   /* border: 1px solid gray; */
   margin-left: 20px;
   margin-top: -12px;
-  margin-right: 7px;
-  padding-left: 6px;
-    margin-left: -3px;
+  margin-right: 8px;
+  padding-left: 1px;
+  margin-left: 5px;
 }
 
-#tbl {
+.section {
   border: 2px gray;
   background-color: #403e3f;
   color: white;
   padding-top: 20px;
-  padding-left: 9px;
+  padding-left: 2px;
   padding-bottom: 20px;
   width: 370px;
   height: 540px;
   float: right;
 }
-#tbl #heading {
+.section #heading {
   font-size: 35px;
 }
-#tbl #para {
+.section #para {
   line-height: 1.8;
-  word-spacing: 10px;
+  word-spacing: 1px;
   font-size: 20px;
 }
-#tbl table tr {
+.section table tr {
   font-size: 20px;
 }
 
@@ -252,19 +307,21 @@ span a {
 }
 
 #footer1 span a {
+  text-decoration: underline;
   font-size: 15px;
-  color: lightgray;
+  color: #797778;
 }
 
 #footer2 {
   margin-left: 218px;
   font-size: 15px;
-  color: lightgray;
+  color: #797778;
 }
 
 #footer2 a {
   font-size: 15px;
-  color: lightgrey;
+  color: #797778;
+  text-decoration: underline;
 }
 
 #btn {
@@ -273,10 +330,10 @@ span a {
 }
 #footer3 {
   margin-left: 218px;
-  color: lightgray;
+  color: #797778;
   font-size: 15px;
 }
 
 footer div a {
-  color: lightgray;
+  color: #797778;
 }
